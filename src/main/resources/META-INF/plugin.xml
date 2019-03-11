@@ -1,0 +1,33 @@
+<idea-plugin url="https://github.com/TwinProduction/intellij-fluent-setter-generator">
+    <name>IntelliJ Fluent Setter Generator</name>
+    <version>1.0.0</version>
+    <id>org.twinnation.intellij-fluent-setter-generator</id>
+    <vendor url="https://twinnation.org" email="intellij@twinnation.org">TwiN</vendor>
+
+    <description>
+        <![CDATA[
+            Plugin that allows you to generate fluent setters starting with "with..." directly in the target class.
+            Heavily inspired by Michael Bareja's Fluent setter generator
+        ]]>
+    </description>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <change-notes>
+        <![CDATA[
+           <h3>version 1.0.0</h3>
+           <ul>
+             <li>Initial release of Fluent Setter Generator</li>
+           </ul>
+         ]]>
+    </change-notes>
+
+    <actions>
+        <action id="GenerateFluentSetter" class="org.twinnation.intellij.fluent.setter.generator.GenerateFluentSetterAction"
+                text="Fluent Setter" description="Generates fluent setters prefixed with 'with'">
+            <add-to-group group-id="JavaGenerateGroup1" anchor="before" relative-to-action="GenerateEquals"/>
+        </action>
+    </actions>
+</idea-plugin>
