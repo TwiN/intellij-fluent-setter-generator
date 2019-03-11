@@ -24,6 +24,8 @@
          ]]>
     </change-notes>
 
+    <!--<depends optional="true">org.jetbrains.kotlin</depends>-->
+
     <actions>
         <action id="GenerateFluentSetter" class="org.twinnation.intellij.fluent.setter.generator.GenerateFluentSetterAction"
                 text="Fluent Setter" description="Generates fluent setters prefixed with 'with'">
