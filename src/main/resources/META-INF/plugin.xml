@@ -17,6 +17,14 @@
 
     <change-notes>
         <![CDATA[
+           <h3>version 1.0.2</h3>
+           <ul>
+             <li>Minor fixes</li>
+           </ul>
+           <h3>version 1.0.1</h3>
+           <ul>
+             <li>Removed 'IntelliJ' from plugin name</li>
+           </ul>
            <h3>version 1.0.0</h3>
            <ul>
              <li>Initial release of Fluent Setter Generator</li>
@@ -24,9 +32,10 @@
          ]]>
     </change-notes>
 
-    <!--<depends optional="true">org.jetbrains.kotlin</depends>-->
     <depends>com.intellij.modules.lang</depends>
     <depends>com.intellij.modules.java</depends>
+
+    <idea-version since-build="182" until-build="191.*" />
 
     <actions>
         <action id="GenerateFluentSetter" class="org.twinnation.intellij.fluent.setter.generator.GenerateFluentSetterAction"
