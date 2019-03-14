@@ -1,5 +1,5 @@
 <idea-plugin url="https://github.com/TwinProduction/intellij-fluent-setter-generator">
-    <name>IntelliJ Fluent Setter Generator</name>
+    <name>Fluent Setter Generator</name>
     <version>1.0.0</version>
     <id>org.twinnation.intellij-fluent-setter-generator</id>
     <vendor url="https://twinnation.org" email="intellij@twinnation.org">TwiN</vendor>
