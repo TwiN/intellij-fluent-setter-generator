@@ -1,6 +1,6 @@
 <idea-plugin url="https://github.com/TwinProduction/intellij-fluent-setter-generator">
     <name>Fluent Setter Generator</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <id>org.twinnation.intellij-fluent-setter-generator</id>
     <vendor url="https://twinnation.org" email="intellij@twinnation.org">TwiN</vendor>
 
@@ -35,7 +35,7 @@
     <depends>com.intellij.modules.lang</depends>
     <depends>com.intellij.modules.java</depends>
 
-    <idea-version since-build="182" until-build="191.*" />
+    <idea-version since-build="182" />
 
     <actions>
         <action id="GenerateFluentSetter" class="org.twinnation.intellij.fluent.setter.generator.GenerateFluentSetterAction"
