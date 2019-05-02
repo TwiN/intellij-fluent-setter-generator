@@ -24,7 +24,8 @@ group 'org.twinnation'
 version '1.0.3'
 
 intellij {
-    version '2018.3.5'
+    version '2019.1'
     pluginName 'Fluent Setter Generator'
+    intellij.updateSinceUntilBuild false
     //setPlugins("org.jetbrains.kotlin:1.3.21-release-IJ2018.3-1")
 }
